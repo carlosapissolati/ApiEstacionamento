@@ -232,3 +232,17 @@ Retorno:<br>
     "erroList": null
 }
 ```
+___________________________________________________________________________________________________________
+Passar o id do estabelecimento.<br> 
+GET - /v1/RelatorioEntradaSaidaVeiculoHora/{id}
+Retorno:
+```
+[
+  {
+    "nomeEstabelecimento": null,
+    "hora": "2020-09-28T14:00:00",
+    "qtdEntrada": 1,
+    "qtdSaida": 0
+  }
+]
+```

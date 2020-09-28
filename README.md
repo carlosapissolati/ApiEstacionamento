@@ -246,3 +246,44 @@ Retorno:
   }
 ]
 ```
+___________________________________________________________________________________________________________
+POST - /v1/Login<br>
+Paylod:<br>
+```
+{
+  "username": "string",
+  "password": "string"
+}
+```
+Retorno:<br>
+```
+{
+    "success": true,
+    "data": {
+        "usuario": "teste@teste.com.br",
+        "token": "string"
+    },
+    "erroList": null
+}
+```
+___________________________________________________________________________________________________________
+POST - /v1/Adicionar<br>
+Paylod:<br>
+```
+{
+  "username": "Teste@teste.com.br",
+  "password": "*****"
+}
+```
+Retorno:<br>
+```
+{
+    "success": true,
+    "data": {
+        "id": "ee4e332b-6e54-4e15-a3b5-a6084c511e1e",
+        "username": "teste@teste.com.br",
+        "password": "**********"
+    },
+    "erroList": null
+}
+```

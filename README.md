@@ -7,7 +7,10 @@ Projeto de uma API para controlar entrada e sa&iacute;da de ve&iacute;culos.
 AutoMapper V10.0.0 <br> 
 AspNetCore.Swagger V5.6.3 <br> 
 Authentication.JwtBearer V3.1.8 <br> 
+EntityFrameworkCore V3.1.8
 
+# Persistência dos dados:<br>
+Estou utilizando o recurso de in memory entity framework core.
 
 # EndPoint:
 Estabelecimento: <br> 

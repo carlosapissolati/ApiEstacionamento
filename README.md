@@ -30,3 +30,74 @@ GET - /v1/RelatorioEntradaSaidaVeiculoHora/{id}<br>
 
 Login:<br> 
 POST - /v1/Login<br> 
+
+# Tipo Entrada e Saida de Dados:
+Entrada: Json<br> 
+Saida: Json <br> 
+
+
+# Exemplo de utilização da API:
+Passar o id do estabelecimento.<br> 
+GET - /v1/estabelecimento/{id}<br> 
+Retorno:<br> 
+
+```      
+{
+    "success": true,
+    "data": {
+        "id": "7d490744-df5e-414e-a92b-20bc1791d0f8",
+        "cnpj": "",
+        "endereco": "",
+        "telefone": "",
+        "qtdVagasMotos": ,
+        "qtdVagasCarros": 
+    },
+    "erroList": null
+}
+```
+___________________________________________________________________________________________________________
+Passar o id do estabelecimento.<br> 
+DELETE - /v1/estabelecimento/{id}<br> 
+Retorno:<br> 
+```
+{
+    "success": true,
+    "data": {
+        "id": "7d490744-df5e-414e-a92b-20bc1791d0f8",
+        "cnpj": "",
+        "endereco": "",
+        "telefone": "",
+        "qtdVagasMotos": ,
+        "qtdVagasCarros": 
+    },
+    "erroList": null
+}
+```
+___________________________________________________________________________________________________________
+POST - /v1/estabelecimento<br> 
+Paylod:<br> 
+```
+{
+  "cnpj": "",
+  "endereco": "",
+  "telefone": "",
+  "qtdVagasMotos": 10,
+  "qtdVagasCarros": 10
+}
+```
+Retorno:<br> 
+```
+{
+    "success": true,
+    "data": {
+        "id": "7d490744-df5e-414e-a92b-20bc1791d0f8",
+        "cnpj": "",
+        "endereco": "",
+        "telefone": "",
+        "qtdVagasMotos": ,
+        "qtdVagasCarros": 
+    },
+    "erroList": null
+}
+```
+___________________________________________________________________________________________________________
